@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Bootstrap 101 Template</title>
-
+    <style>
+    .table th, #member td {
+        text-align : center;
+        vertical-align:middle;
+    }
+  </style>
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <!-- Latest compiled and minified JavaScript -->
@@ -20,13 +25,17 @@
     <![endif]-->
   </head>
   <body>
-<table class="table table-bordered">
-<tr><th>회장</th><th>악장</th><th>기수</th><th>세션</th><th>이름</th><th>전화번호</th><th>이메일</th></tr>
+<table id="member" class="table table-bordered" style="text-align:center">
+<tr><th>회장</th><th>악장</th><th>기수</th><th style="text-align:center">세션</th><th>이름</th><th>전화번호</th><th>이메일</th></tr>
 <tr><td><div class="checkbox">
         <label>
           <input type="checkbox">
         </label>
-      </div></td><td>Row:1 Cell:2</td><td>Row:1 Cell:3</td><td>Row:1 Cell:4</td><td>Row:1 Cell:5</td><td>Row:1 Cell:6</td><td>Row:1 Cell:7</td></tr>
+      </div></td><td><div class="checkbox">
+        <label>
+          <input type="checkbox">
+        </label>
+      </div></td><td>10</td><td>D</td><td>이준호</td><td>010-6748-0301</td><td>earths0ng@kaist.ac.kr</td></tr>
 </table>
 <p><small>Created with the <a href="http://www.textfixer.com/html/html-table-generator.php" target="_blank">HTML Table Generator</a></small></p>
  
