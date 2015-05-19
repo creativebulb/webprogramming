@@ -20,24 +20,57 @@
     <![endif]-->
   </head>
   <body>
+    <h1> 인피니트 멤버 등록 </h1>
     <div class="container">
-      <form>
+      <form class="form-inline">
         <div class="form-group">
           <label for="exampleInputName1">이름</label>
           <input type="name" class="form-control" id="exampleInputName1" placeholder="ex)홍길동">
         </div>
-
-        <div class="form-group">
-          <label for="exampleInputPhoneNumber1">전화번호</label>
-          <input type="phonenumber" class="form-control" id="exampleInputPhoneNumber1" placeholder="ex)010-1234-5678">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> 회장
+          </label>
         </div>
-        <div class="form-group">
-          <label for="exampleInputEmail1">이메일 주소</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="ex)gildong@kaist.ac.kr">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> 악장
+          </label>
         </div>
+      </form>
+      <form>
         <div class="form-group">
-          <label for="exampleInputSNS1">SNS</label>
-          <input type="sns" class="form-control" id="exampleInputSNS1" placeholder="SNS">
+          <label for="exampleInputEmail1">기수</label>
+          <select class="form-control">
+            <option>2015 (28기)</option>
+            <option>2014 (27기)</option>
+            <option>2013 (26기)</option>
+            <option>2012 (25기)</option>
+            <option>2011 (24기)</option>
+            <option>2010 (23기)</option>
+            <option>2009 (22기)</option>
+            <option>2008 (21기)</option>
+            <option>2007 (20기)</option>
+            <option>2006 (19기)</option>
+            <option>2005 (18기)</option>
+            <option>2004 (17기)</option>
+            <option>2003 (16기)</option>
+            <option>2002 (15기)</option>
+            <option>2001 (14기)</option>
+            <option>2000 (13기)</option>
+            <option>1999 (12기)</option>
+            <option>1998 (11기)</option>
+            <option>1997 (10기)</option>
+            <option>1996 (9기)</option>
+            <option>1995 (8기)</option>
+            <option>1994 (7기)</option>
+            <option>1993 (6기)</option>
+            <option>1992 (5기)</option>
+            <option>1991 (4기)</option>
+            <option>1990 (3기)</option>
+            <option>1989 (2기)</option>
+            <option>1988 (1기)</option>
+          </select>
         </div>
         <div class="form-group">
           <label for="exampleInputEmail1">세션</label>
@@ -51,15 +84,23 @@
           </select>
         </div>
         <div class="form-group">
-          <label for="exampleInputFile">File input</label>
+          <label for="exampleInputPhoneNumber1">전화번호</label>
+          <input type="phonenumber" class="form-control" id="exampleInputPhoneNumber1" placeholder="ex)010-1234-5678">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">이메일 주소</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="ex)gildong@kaist.ac.kr">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputSNS1">SNS</label>
+          <input type="sns" class="form-control" id="exampleInputSNS1" placeholder="SNS">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputFile">사진 등록</label>
           <input type="file" id="exampleInputFile">
-          <p class="help-block">Example block-level help text here.</p>
+          <p class="help-block">사진은 포샵 적은 정직한 사진으로 등록바랍니다^^</p>
         </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox"> Check me out
-          </label>
-        </div>
+
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
     </div>
